@@ -1,0 +1,429 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #000000;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.navSpace {
+  padding: 50px;
+}
+
+.flex-container {
+  margin: 0px auto;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#bodyTitle {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  color: #6b0000;
+}
+
+#mainText {
+  text-transform: uppercase;
+  font-size: 32px;
+  text-align: left;
+}
+
+#profile {
+  max-width: 544px;
+  margin: 50px auto;
+}
+
+#stepOut {
+  min-height: 605px;
+  max-width: 544px;
+  margin: 5px auto;
+}
+
+#meSpeaking {
+  width: 400px;
+  height: 589px;
+  position: absolute;
+  z-index: 2;
+}
+
+#outBox {
+  width: 398px;
+  height: 398px;
+  top: 211px;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #6b0000;
+  z-index: 1;
+  position: relative;
+}
+
+.skillBar h5 {
+  font-size: 16px;
+  color: #6b0000;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.skillBar h3 {
+  font-size: 32px;
+  text-align: left;
+  margin: 20px auto;
+}
+
+.skillBar p {
+  margin-top: 20px;
+}
+
+.progress-bar {
+  color: #6b0000 !important;
+}
+
+.skillBar div {
+  margin: 20px 0;
+}
+
+.bar {
+  background: white;
+  display: block;
+  height: 5px;
+  border: 1px solid #6b0000;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 5px #6b0000;
+}
+
+.skillBar .bar span {
+  height: 5px;
+  float: left;
+  background: #6b0000;
+}
+
+.one {
+  visibility: visible;
+  width: 99%;
+  animation: one 5s;
+  visibility: visible;
+}
+
+.two {
+  visibility: visible;
+  width: 90%;
+  animation: two 5s;
+}
+
+.three {
+  visibility: visible;
+  width: 80%;
+  animation: three 5s;
+}
+
+.four {
+  visibility: visible;
+  width: 90%;
+  animation: four 5s;
+}
+
+.five {
+  width: 85%;
+  animation: five 5s;
+}
+
+.six {
+  width: 70%;
+  animation: six 5s;
+}
+
+.seven {
+  width: 55%;
+  animation: seven 5s;
+}
+
+.eight {
+  width: 40%;
+  animation: eight 5s;
+}
+
+/*
+@keyframes one {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 99%;
+  }
+}
+
+@keyframes two {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes three {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes four {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes five {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
+}
+
+@keyframes six {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@keyframes seven {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 55%;
+  }
+}
+
+@keyframes eight {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 40%;
+  }
+}*/
+
+.research h5,
+.speaking h5,
+.companies h5,
+.hire h5 {
+  font-size: 16px;
+  color: #6b0000;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.research h3,
+.speaking h3,
+.companies h3,
+.hire h3 {
+  font-size: 32px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.skillBar,
+.research,
+.speaking,
+.companies,
+.hire {
+  margin: 50px;
+  padding: 50px;
+}
+
+.research p,
+.hire p {
+  font-size: 18px;
+  padding: 20px;
+  margin: auto auto;
+  max-width: 1088px;
+  text-align: center;
+}
+
+#research div {
+  margin: 20px;
+  border-style: solid;
+  border-color: #6b0000;
+  border-width: 3px;
+  box-shadow: 10px 10px black;
+}
+
+.additional_writing {
+  width: 250px;
+  height: 250px;
+}
+
+#research div,
+.flexContainer div {
+  width: 250px;
+  height: 250px;
+}
+
+#research div:hover {
+  background-color: #ebebeb;
+}
+
+#research h5 {
+  text-align: center;
+  margin-top: 45%;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 16px;
+  color: black;
+  text-transform: uppercase;
+}
+
+#research a:visited,
+a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: -35px;
+}
+
+.flexContainer div {
+  padding: 10px;
+  margin: 20px;
+  justify-content: flex-end;
+}
+
+.company_boxes div {
+  position: absolute;
+  margin-left: -5px;
+}
+
+#noris_network,
+#meelogic,
+#eden_block {
+  max-height: 200px;
+  max-width: 200px;
+  padding: 5px;
+  margin: 55px auto;
+}
+
+a:hover,
+a:visited,
+a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+.flexContainer #text_box {
+  position: relative;
+  margin: -20px;
+  background-color: #ebebeb;
+  box-shadow: 2px 2px 2px 2px #888888;
+  opacity: 0.9;
+}
+
+.flexContainer #text_box p {
+  font-size: 18px;
+  margin-top: 55px;
+  text-align: center;
+  opacity: 1;
+}
+
+.devider {
+  border-bottom: 3px solid #6b0000;
+}
+
+.buttonTouch {
+  background-color: white;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #6b0000;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 60px;
+  width: 150px;
+  border-radius: 20px;
+}
+
+.buttonTouch h5 {
+  color: #6b0000;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.buttonTouch:hover h5 {
+  color: white;
+}
+
+.buttonTouch:hover {
+  background-color: #6b0000;
+}
+
+@media only screen and (max-width: 880px) {
+  .skillBar,
+  .research,
+  .speaking,
+  .companies,
+  .hire {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  #research div {
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+  }
+
+  #research h5 {
+    margin-top: 40%;
+    padding: 5px;
+    font-size: 18px;
+  }
+
+  #stepOut {
+    min-height: 505px;
+    max-width: 444px;
+  }
+
+  #meSpeaking {
+    width: 300px;
+    height: 441px;
+  }
+
+  #outBox {
+    width: 292px;
+    height: 292px;
+    top: 168px;
+  }
+}

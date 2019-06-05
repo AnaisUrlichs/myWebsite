@@ -1,0 +1,30 @@
+.footer {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  background-color: #6b0000;
+  opacity: 0.9;
+  color: #ffffff !important;
+  justify-content: center;
+}
+
+.footer p {
+  padding: 5px;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.box_one {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.box_two {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: start;
+}
+
+.box_two a:hover {
+  text-decoration: underline;
+}
