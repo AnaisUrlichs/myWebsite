@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #000000;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.navSpace {
+  padding: 50px;
+}
+
+.hobbies {
+  margin-top: 150px;
+}
+
+.hobbies h5 {
+  font-size: 16px;
+  margin: 10px auto;
+  color: #6b0000;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.hobbies h3 {
+  font-size: 32px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#hobbies div {
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+  width: 198px;
+  height: 298px;
+  margin: 10px;
+  background-color: white;
+  align-items: center;
+}
+
+#hobbies h5 {
+  position: relative;
+  font-size: 18px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  text-align: center;
+  margin: auto auto;
+  text-transform: uppercase;
+}
+
+#hobbies #cooking:hover {
+  background-image: url("image/cooking.png");
+  background-repeat: no-repeat;
+}
+
+#hobbies #cooking:hover h5 {
+  opacity: 0;
+}
+
+#hobbies #reading:hover {
+  background-image: url("image/reading.png");
+  background-repeat: no-repeat;
+}
+
+#hobbies #reading:hover h5 {
+  opacity: 0;
+}
+
+#hobbies #travelling:hover {
+  background-image: url("image/travelling.png");
+  background-repeat: no-repeat;
+}
+
+#hobbies #travelling:hover h5 {
+  opacity: 0;
+}
+
+#hobbies #sports:hover {
+  background-image: url("image/sports.png");
+  background-repeat: no-repeat;
+}
+
+#hobbies #sports:hover h5 {
+  opacity: 0;
+}
