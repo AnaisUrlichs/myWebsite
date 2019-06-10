@@ -1,0 +1,11 @@
+#conf {
+  max-height: 600px;
+  max-width: 600px;
+  position: relative;
+  left: 21%;
+}
+
+.confGallery {
+  max-width: 1044px;
+  margin: 0 auto;
+}

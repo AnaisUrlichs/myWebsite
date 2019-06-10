@@ -2,16 +2,14 @@ import React, { Component } from "react";
 import Swiper from "react-id-swiper";
 import ReactPlayer from "react-player";
 import { Pagination, Navigation } from "swiper/dist/js/swiper.esm";
-import "./Gallery.css";
-import { genericTypeAnnotation } from "@babel/types";
+import "./SpeakingVideos.css";
 
-const SimpleSwiperWithParams = () => {
+const SpeakingVideos = () => {
   const params = {
     modules: [Pagination, Navigation],
     pagination: {
       el: ".swiper-pagination",
       type: "bullets",
-      color: "red",
       clickable: true
     },
     navigation: {
@@ -45,4 +43,4 @@ const SimpleSwiperWithParams = () => {
   );
 };
 
-export default SimpleSwiperWithParams;
+export default SpeakingVideos;

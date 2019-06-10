@@ -11,7 +11,7 @@ class Companies extends React.Component {
               <h5>IT Project Management</h5>
               <img
                 id="noris_network"
-                src={require("./image/noris_network.png")}
+                src={require("./image/general/noris_network.png")}
               />
             </ReactHover.Trigger>
             <ReactHover.Hover type="hover">
@@ -34,7 +34,10 @@ class Companies extends React.Component {
           <ReactHover>
             <ReactHover.Trigger type="trigger">
               <h5>Front-end Development</h5>
-              <img id="noris_network" src={require("./image/meelogic.png")} />
+              <img
+                id="noris_network"
+                src={require("./image/general/meelogic.png")}
+              />
             </ReactHover.Trigger>
             <ReactHover.Hover type="hover">
               <a href="https://www.meelogic.com/en/" target="_blank">
@@ -50,7 +53,10 @@ class Companies extends React.Component {
           <ReactHover>
             <ReactHover.Trigger type="trigger">
               <h5>Researcher for blockchain-based technologies</h5>
-              <img id="noris_network" src={require("./image/eden_block.png")} />
+              <img
+                id="noris_network"
+                src={require("./image/general/eden_block.png")}
+              />
             </ReactHover.Trigger>
             <ReactHover.Hover type="hover">
               <a href="https://www.edenblock.com" target="_blank">

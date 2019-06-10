@@ -25,12 +25,36 @@ body {
   margin-top: 50px;
 }
 
-.hobbies {
-  margin-top: 150px;
+.hobbies,
+.statistics {
+  margin: 50px;
+  padding: 50px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.statistics div {
+  margin: 10px auto;
+}
+
+.counter {
+  font-size: 50px;
+  font-weight: bold;
+  position: relative;
+  top: 50%;
+  left: 40%;
 }
 
 .hobbies h5,
-.statistics h5 {
+.statistics h5,
+.confGallery h5,
+.mentoring h5,
+.foodGallery h5 {
   font-size: 16px;
   margin: 10px auto;
   color: #6b0000;
@@ -40,17 +64,59 @@ body {
 }
 
 .hobbies h3,
-.statistics h3 {
+.statistics h3,
+.confGallery h3,
+.mentoring h3,
+.foodGallery h3 {
   font-size: 32px;
   text-align: center;
   margin: 20px auto;
 }
 
-.flex-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+.mentoring {
+  background-color: #ebebeb;
+  padding: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.mentoring p {
+  font-size: 18px;
+  padding: 20px;
+  margin: auto auto;
+  max-width: 1088px;
+  text-align: center;
+}
+
+.buttonTouchAbout {
+  background-color: #6b0000;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 60px;
+  width: 150px;
+  border-radius: 20px;
+}
+
+.buttonTouchAbout h5 {
+  text-transform: uppercase;
+  color: #ebebeb;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.buttonTouchAbout:hover h5 {
+  font-weight: bold;
+  color: black;
+}
+
+#veganOutreach {
+  text-decoration: underline;
 }
 
 #hobbies div {
@@ -77,7 +143,7 @@ body {
 }
 
 #hobbies #cooking:hover {
-  background-image: url("image/cooking.png");
+  background-image: url("./extras/image/general/cooking.png");
   background-repeat: no-repeat;
 }
 
@@ -86,7 +152,7 @@ body {
 }
 
 #hobbies #reading:hover {
-  background-image: url("image/reading.png");
+  background-image: url("./extras/image/general/reading.png");
   background-repeat: no-repeat;
 }
 
@@ -95,7 +161,7 @@ body {
 }
 
 #hobbies #travelling:hover {
-  background-image: url("image/travelling.png");
+  background-image: url("./extras/image/general/travelling.png");
   background-repeat: no-repeat;
 }
 
@@ -104,7 +170,7 @@ body {
 }
 
 #hobbies #sports:hover {
-  background-image: url("image/sports.png");
+  background-image: url("./extras/image/general/sports.png");
   background-repeat: no-repeat;
 }
 

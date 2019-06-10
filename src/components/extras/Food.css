@@ -1,0 +1,15 @@
+#food {
+  max-height: 600px;
+  max-width: 600px;
+  position: relative;
+  left: 21%;
+}
+
+.foodGallery {
+  max-width: 1044px;
+  margin: 0 auto;
+}
+
+.foodRotate {
+  transform: rotate(90deg);
+}
