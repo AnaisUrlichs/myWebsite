@@ -25,65 +25,65 @@ const Food = () => {
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css"
         />
-        <div>
-          <img id="food" src={require("./image/food/foodOne.png")} />
+        <div id="food">
+          <img src={require("./image/food/foodOne.png")} />
         </div>
-        <div className="foodRotate">
-          <img id="food" src={require("./image/food/foodTwo.png")} />
+        <div id="food" className="foodRotate">
+          <img src={require("./image/food/foodTwo.png")} />
         </div>
-        <div>
-          <img id="food" src={require("./image/food/foodThree.png")} />
+        <div id="food">
+          <img src={require("./image/food/foodThree.png")} />
         </div>
-        <div className="foodRotate">
-          <img id="food" src={require("./image/food/foodFour.png")} />
+        <div id="food" className="foodRotate">
+          <img src={require("./image/food/foodFour.png")} />
         </div>
-        <div className="foodRotate">
-          <img id="food" src={require("./image/food/foodFive.png")} />
+        <div id="food" className="foodRotate">
+          <img src={require("./image/food/foodFive.png")} />
         </div>
-        <div className="foodRotate">
-          <img id="food" src={require("./image/food/foodSix.png")} />
+        <div id="food" className="foodRotate">
+          <img src={require("./image/food/foodSix.png")} />
         </div>
-        <div className="foodRotate">
-          <img id="food" src={require("./image/food/foodSeven.png")} />
+        <div id="food" className="foodRotate">
+          <img src={require("./image/food/foodSeven.png")} />
         </div>
-        <div>
-          <img id="food" src={require("./image/food/foodEight.png")} />
+        <div id="food">
+          <img src={require("./image/food/foodEight.png")} />
         </div>
-        <div className="foodRotate">
-          <img id="food" src={require("./image/food/foodNine.png")} />
+        <div id="food" className="foodRotate">
+          <img src={require("./image/food/foodNine.png")} />
         </div>
-        <div>
-          <img id="food" src={require("./image/food/foodTen.png")} />
+        <div id="food">
+          <img src={require("./image/food/foodTen.png")} />
         </div>
-        <div>
-          <img id="food" src={require("./image/food/foodEleven.png")} />
+        <div id="food">
+          <img src={require("./image/food/foodEleven.png")} />
         </div>
-        <div>
-          <img id="food" src={require("./image/food/foodTwelve.png")} />
+        <div id="food">
+          <img src={require("./image/food/foodTwelve.png")} />
         </div>
-        <div>
-          <img id="food" src={require("./image/food/foodThirteen.png")} />
+        <div id="food">
+          <img src={require("./image/food/foodThirteen.png")} />
         </div>
-        <div>
-          <img id="food" src={require("./image/food/foodFourteen.png")} />
+        <div id="food">
+          <img src={require("./image/food/foodFourteen.png")} />
         </div>
-        <div>
-          <img id="food" src={require("./image/food/foodFifteen.png")} />
+        <div id="food">
+          <img src={require("./image/food/foodFifteen.png")} />
         </div>
-        <div>
-          <img id="food" src={require("./image/food/foodSixteen.png")} />
+        <div id="food">
+          <img src={require("./image/food/foodSixteen.png")} />
         </div>
-        <div>
-          <img id="food" src={require("./image/food/foodSeventeen.png")} />
+        <div id="food">
+          <img src={require("./image/food/foodSeventeen.png")} />
         </div>
-        <div>
-          <img id="food" src={require("./image/food/foodEighteen.png")} />
+        <div id="food">
+          <img src={require("./image/food/foodEighteen.png")} />
         </div>
-        <div className="foodRotate">
-          <img id="food" src={require("./image/food/foodNineteen.png")} />
+        <div id="food" className="foodRotate">
+          <img src={require("./image/food/foodNineteen.png")} />
         </div>
-        <div>
-          <img id="food" src={require("./image/food/foodTwenty.png")} />
+        <div id="food">
+          <img src={require("./image/food/foodTwenty.png")} />
         </div>
       </Swiper>
     </div>

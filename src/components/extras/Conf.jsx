@@ -6,45 +6,43 @@ import "./Conf.css";
 const Conf = () => {
   const params = {
     modules: [Pagination, Navigation],
+    slidesPerView: 1,
+    spaceBetween: 30,
     pagination: {
       el: ".swiper-pagination",
-      type: "bullets",
-      clickable: true
+      clickable: true,
+      color: "black"
     },
     navigation: {
       nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev"
-    },
-    spaceBetween: 30
+      prevEl: ".swiper-button-prev",
+      color: "black"
+    }
   };
 
   return (
     <div className="confGallery">
       <Swiper {...params}>
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css"
-        />
-        <div>
-          <img id="conf" src={require("./image/conf/confOne.png")} />
+        <div id="conf">
+          <img src={require("./image/conf/confOne.png")} />
         </div>
-        <div>
-          <img id="conf" src={require("./image/conf/confTwo.png")} />
+        <div id="conf">
+          <img src={require("./image/conf/confTwo.png")} />
         </div>
-        <div>
-          <img id="conf" src={require("./image/conf/confThree.png")} />
+        <div id="conf">
+          <img src={require("./image/conf/confThree.png")} />
         </div>
-        <div>
-          <img id="conf" src={require("./image/conf/confFour.png")} />
+        <div id="conf">
+          <img src={require("./image/conf/confFour.png")} />
         </div>
-        <div>
-          <img id="conf" src={require("./image/conf/confFive.png")} />
+        <div id="conf">
+          <img src={require("./image/conf/confFive.png")} />
         </div>
-        <div>
-          <img id="conf" src={require("./image/conf/confSix.png")} />
+        <div id="conf">
+          <img src={require("./image/conf/confSix.png")} />
         </div>
-        <div>
-          <img id="conf" src={require("./image/conf/confSeven.png")} />
+        <div id="conf">
+          <img src={require("./image/conf/confSeven.png")} />
         </div>
       </Swiper>
     </div>

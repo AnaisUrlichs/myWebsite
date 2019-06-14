@@ -1,4 +1,4 @@
-"use strict";
+/*"use strict";
 import React from "../../../../../AppData/Local/Microsoft/TypeScript/2.9/node_modules/@types/react";
 import {
   Nav,
@@ -81,4 +81,4 @@ class menu extends React.Component {
     )
   }
 }
-export default Menu;
+export default Menu;*/

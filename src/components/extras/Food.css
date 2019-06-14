@@ -1,8 +1,12 @@
 #food {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#food img {
   max-height: 600px;
   max-width: 600px;
-  position: relative;
-  left: 21%;
 }
 
 .foodGallery {

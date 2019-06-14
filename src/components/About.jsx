@@ -10,13 +10,17 @@ export default class About extends Component {
     return (
       <div>
         <div className="navSpace" />
-        <img
-          className="snowImage"
-          src={require("./extras/image/general/snowImage.png")}
-        />
+
+        <div className="topImage">
+          <img
+            className="snowImage"
+            src={require("./extras/image/general/snowImage.png")}
+          />
+          <h3>You've made it this far! Welcome to my corner of the web!</h3>
+        </div>
 
         <div className="statistics">
-          <h3>Random figures</h3>
+          <h3>We all love data!</h3>
           <div className="flex-container">
             <div>
               <h5>countries I have lived in</h5>
@@ -63,7 +67,7 @@ export default class About extends Component {
 
         <div className="foodGallery">
           <Fade bottom>
-            <h5>Cooking</h5>
+            <h5>Gallery</h5>
             <h3>But what do vegans eat?</h3>
 
             <Food />

@@ -1,8 +1,13 @@
 #conf {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#conf img {
   max-height: 600px;
   max-width: 600px;
-  position: relative;
-  left: 21%;
+  padding: 5px;
 }
 
 .confGallery {

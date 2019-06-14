@@ -109,8 +109,8 @@ export default class Work extends Component {
               technologies, collecting, synthesizing, and summarizing a wide
               range of content including articles, blog posts, and third-party
               research. As of today, I've written over 150 research papers and
-              summaries on a variety of related topics. Here are some summaries
-              of my research efforts below.
+              summaries on a variety of related topics. Below are some summaries
+              of my research efforts.
             </p>
 
             <div className="flex-container" id="research">
@@ -186,12 +186,13 @@ export default class Work extends Component {
 
         <div className="hire">
           <Fade bottom>
-            <h5>Hire</h5>
+            <h5>Collaborating</h5>
             <h3>Let's start creating!</h3>
             <p>
               If you are looking for a curious, passionate, and hard-working
-              individual to contribute to your front-end development, please get
-              in touch! Looking forward hearing from you!
+              individual to contribute to your front-end development,
+              technical-writing, or research, please get in touch! Looking
+              forward hearing from you!
             </p>
 
             <a href="/contact">
