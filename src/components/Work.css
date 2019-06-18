@@ -229,6 +229,7 @@ body {
 .research h5,
 .speaking h5,
 .companies h5,
+.blog h5,
 .hire h5 {
   font-size: 16px;
   color: #6b0000;
@@ -240,6 +241,7 @@ body {
 .research h3,
 .speaking h3,
 .companies h3,
+.blog h3,
 .hire h3 {
   font-size: 32px;
   text-align: center;
@@ -259,7 +261,7 @@ body {
 .hire p {
   font-size: 18px;
   padding: 20px;
-  margin: auto auto;
+  margin: 0 auto;
   max-width: 1088px;
   text-align: center;
 }
@@ -301,6 +303,25 @@ body {
 a:active {
   color: inherit;
   text-decoration: none;
+}
+
+.blog {
+  background-color: #ebebeb;
+  padding: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.blog p {
+  font-size: 18px;
+  padding: 20px;
+  margin: auto auto;
+  max-width: 1088px;
+  text-align: center;
+}
+
+.blog .buttonTouch {
+  background-color: #ebebeb;
 }
 
 .flexContainer {
@@ -354,6 +375,11 @@ a:active {
 
 .devider {
   border-bottom: 3px solid #6b0000;
+}
+
+.hire {
+  margin: 0 auto;
+  align-content: center;
 }
 
 .buttonTouch {

@@ -51,7 +51,11 @@ export default class About extends Component {
             <h3>Tranform your diet!</h3>
             <p>
               I am a mentor at{" "}
-              <a href="https://veganoutreach.org/" id="veganOutreach">
+              <a
+                href="https://veganoutreach.org/"
+                target="_blank"
+                id="veganOutreach"
+              >
                 Vegan Outreach
               </a>{" "}
               since mid 2018. If you are interested in how humans can thrive on

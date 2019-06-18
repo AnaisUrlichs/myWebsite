@@ -155,12 +155,31 @@ export default class Work extends Component {
                 </div>
               </a>
 
-              <a>
+              <a
+                href="https://drive.google.com/drive/folders/1oIr7wIwyJuR71ynS_M5S4Y4jgrK92lUt?usp=sharing"
+                target="_blank"
+              >
                 <div ckassName="additional_writing">
                   <h5>And More!</h5>
                 </div>
               </a>
             </div>
+          </Fade>
+        </div>
+
+        <div className="blog">
+          <Fade bottom>
+            <h5>Blog</h5>
+            <h3>Additional writings</h3>
+            <p>
+              You can find a collection of additional writings on my Medium
+              Blog.
+            </p>
+            <a href="https://medium.com/@urlichsanais">
+              <div className="buttonTouch">
+                <h5>Blog</h5>
+              </div>
+            </a>
           </Fade>
         </div>
 

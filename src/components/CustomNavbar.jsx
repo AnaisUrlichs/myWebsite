@@ -134,11 +134,6 @@ class CustomNavbar extends Component {
                     Contact
                   </MDBNavLink>
                 </MDBNavItem>
-                <MDBNavItem>
-                  <MDBNavLink to="https://medium.com/@urlichsanais" id="links">
-                    Blog
-                  </MDBNavLink>
-                </MDBNavItem>
               </MDBNavbarNav>
             </MDBCollapse>
           </MDBContainer>

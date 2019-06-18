@@ -4,7 +4,7 @@
   background-color: #6b0000;
   opacity: 0.9;
   color: #ffffff !important;
-  justify-content: center;
+  justify-content: start;
 }
 
 .footer p {
@@ -15,11 +15,16 @@
 
 .box_one {
   margin: 20px;
+  justify-content: start;
+  text-align: left !important;
+}
+
+.box_one p {
+  max-width: 300px;
 }
 
 .box_two {
-  margin-top: 10px;
-  margin-right: 10px;
+  margin: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: start;
