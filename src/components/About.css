@@ -16,6 +16,13 @@ body {
   padding: 70px;
 }
 
+a:visited,
+a:active,
+a:hover {
+  color: inherit !important;
+  text-decoration: none;
+}
+
 .snowImage {
   min-width: 160px;
   min-height: 160px;

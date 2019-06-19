@@ -4,11 +4,13 @@ import CountUp from "react-countup";
 import Conf from "./extras/Conf.jsx";
 import Food from "./extras/Food.jsx";
 import Fade from "react-reveal/Fade";
+import ScrollToTopOnMount from "./ScrollTop.jsx";
 
 export default class About extends Component {
   render() {
     return (
       <div>
+        <ScrollToTopOnMount />
         <div className="navSpace" />
 
         <div className="topImage">

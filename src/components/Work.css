@@ -290,6 +290,8 @@ body {
 }
 
 #research h5 {
+  text-transform: uppercase;
+  font-weight: bold;
   text-align: center;
   margin-top: 45%;
   margin-left: 5px;
@@ -320,8 +322,33 @@ a:active {
   text-align: center;
 }
 
-.blog .buttonTouch {
-  background-color: #ebebeb;
+.buttonBlog {
+  background-color: #6b0000;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 60px;
+  width: 150px;
+  border-radius: 20px;
+  transition: opacity 1s ease-in;
+}
+
+.buttonBlog h5 {
+  text-transform: uppercase;
+  color: #ebebeb;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.buttonBlog:hover h5 {
+  font-weight: bold;
+  color: black;
+  opacity: 0.8;
 }
 
 .flexContainer {
@@ -434,7 +461,7 @@ a:active {
   #research h5 {
     margin-top: 40%;
     padding: 5px;
-    font-size: 18px;
+    font-size: 16px;
   }
 
   #stepOut {

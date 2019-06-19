@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Contact.css";
+import ScrollToTopOnMount from "./ScrollTop.jsx";
 
 const initialState = {
   fname: "",
@@ -67,6 +68,7 @@ export default class Contact extends Component {
   render() {
     return (
       <div>
+        <ScrollToTopOnMount />
         <div className="navSpace" />
         <div className="contact">
           <h5>Let's Chat!</h5>

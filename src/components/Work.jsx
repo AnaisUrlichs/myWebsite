@@ -5,11 +5,13 @@ import SpeakingVideos from "./extras/SpeakingVideos.jsx";
 import Companies from "./extras/companies.jsx";
 import Slide from "react-reveal/Slide";
 import Fade from "react-reveal/Fade";
+import ScrollToTopOnMount from "./ScrollTop.jsx";
 
 export default class Work extends Component {
   render() {
     return (
       <div>
+        <ScrollToTopOnMount />
         <div className="navSpace" />
         <div className="flex-container">
           <div id="profile">
@@ -176,7 +178,7 @@ export default class Work extends Component {
               Blog.
             </p>
             <a href="https://medium.com/@urlichsanais">
-              <div className="buttonTouch">
+              <div className="buttonBlog">
                 <h5>Blog</h5>
               </div>
             </a>

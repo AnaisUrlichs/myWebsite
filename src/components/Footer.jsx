@@ -40,12 +40,6 @@ export default class CustomNavbar extends Component {
               </a>
             </p>
           </div>
-          <div>
-            <p>
-              {" "}
-              <a href="/contact">Contact</a>
-            </p>
-          </div>
         </div>
       </div>
     );
