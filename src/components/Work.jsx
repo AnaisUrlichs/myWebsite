@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import "./Work.css";
 import SpeakingVideos from "./extras/SpeakingVideos.jsx";
 import Companies from "./extras/companies.jsx";

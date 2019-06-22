@@ -366,7 +366,6 @@ a:active {
 
 .company_boxes div {
   position: absolute;
-  margin-left: -5px;
 }
 
 #noris_network,
@@ -381,13 +380,13 @@ a:active {
 a:hover,
 a:visited,
 a:active {
-  color: inherit;
+  color: black;
   text-decoration: none;
 }
 
 .flexContainer #text_box {
   position: relative;
-  margin: -20px;
+  margin: -10px;
   background-color: #ebebeb;
   box-shadow: 2px 2px 2px 2px #888888;
   opacity: 0.9;

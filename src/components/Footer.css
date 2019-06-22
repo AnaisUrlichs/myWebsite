@@ -33,3 +33,17 @@
 .box_two a:hover {
   text-decoration: underline;
 }
+
+.box_two a:visited,
+.box_two a:active,
+.box_two a:hover {
+  color: white !important;
+  text-decoration: none;
+}
+
+.box_two a:visited,
+.box_two a:active,
+.box_two a:hover {
+  color: white !important;
+  text-decoration: none;
+}
