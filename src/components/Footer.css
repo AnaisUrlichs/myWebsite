@@ -34,9 +34,19 @@
   text-decoration: underline;
 }
 
-a:visited,
-a:active,
-a:hover {
-  color: inherit !important;
+.box_two a:visited,
+.box_two a:active,
+.box_two a:hover {
+  color: white !important;
   text-decoration: none;
 }
+
+@media only screen and (max-width: 880px) {
+  .box_two a:visited,
+  .box_two a:active,
+  .box_two a:hover {
+    color: white !important;
+    text-decoration: none;
+  }
+}
+
