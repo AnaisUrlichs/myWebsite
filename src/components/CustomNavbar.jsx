@@ -1,72 +1,3 @@
-/*import React, { Component } from "react";
-import { Navbar, Nav } from "react-bootstrap";
-import "./CustomNavbar.css";
-
-export default class CustomNavbar extends Component {
-
-  class CustomNavbar extends Component {
-  state = {
-    collapse1: false,
-    collapseID: ""
-  };
-
-  toggleCollapse = collapseID => () => {
-    this.setState(prevState => ({
-      collapseID: prevState.collapseID !== collapseID ? collapseID : ""
-    }));
-  };
-
-  toggleSingleCollapse = collapseId => {
-    this.setState({
-      ...this.state,
-      [collapseId]: !this.state[collapseId]
-    });
-  };
-
-  render() {
-    return (
-      <Navbar className="navColor" expand="lg">
-        <Navbar.Brand href="/">Anaïs Urlichs</Navbar.Brand>
-        <MDBHamburgerToggler
-                color="#6b0000"
-                id="hamburger1"
-                onClick={() => this.toggleSingleCollapse("collapse1")}
-              />
-              <MDBCollapse isOpen={this.state.collapse1} navbar>
-          <Nav className="mr-auto" pullRight>
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="/">
-                  Work
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/about">
-                  About
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="mailto:urlichsanais@gmail.com">
-                  Contact
-                </a>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="https://medium.com/@urlichsanais"
-                  target="_blank"
-                >
-                  Blog
-                </a>
-              </li>
-            </ul>
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar>
-    );
-  }
-}*/
-
 import React, { Component } from "react";
 import {
   MDBNavbar,
@@ -109,6 +40,7 @@ class CustomNavbar extends Component {
                 <img
                   id="signature"
                   src={require("./extras/image/general/Signature.png")}
+                  onClick={() => this.toggleSingleCollapse("collapse1")}
                 />
               </MDBNavLink>
             </MDBNavbarBrand>
@@ -116,21 +48,34 @@ class CustomNavbar extends Component {
               color="#6b0000"
               id="hamburger1"
               onClick={() => this.toggleSingleCollapse("collapse1")}
+              onScroll={() => this.toggleSingleCollapse("collapse1")}
             />
             <MDBCollapse isOpen={this.state.collapse1} navbar>
               <MDBNavbarNav>
                 <MDBNavItem>
-                  <MDBNavLink to="/" id="links">
+                  <MDBNavLink
+                    to="/"
+                    id="links"
+                    onClick={() => this.toggleSingleCollapse("collapse1")}
+                  >
                     Work
                   </MDBNavLink>
                 </MDBNavItem>
                 <MDBNavItem>
-                  <MDBNavLink to="/about" id="links">
+                  <MDBNavLink
+                    to="/about"
+                    id="links"
+                    onClick={() => this.toggleSingleCollapse("collapse1")}
+                  >
                     About
                   </MDBNavLink>
                 </MDBNavItem>
                 <MDBNavItem>
-                  <MDBNavLink to="/contact" id="links">
+                  <MDBNavLink
+                    to="/contact"
+                    id="links"
+                    onClick={() => this.toggleSingleCollapse("collapse1")}
+                  >
                     Contact
                   </MDBNavLink>
                 </MDBNavItem>

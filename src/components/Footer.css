@@ -1,4 +1,10 @@
+.placing {
+  position: absolute;
+  width: 100%;
+}
+
 .footer {
+  max-height: 200px;
   display: grid;
   grid-template-columns: 3fr 1fr;
   background-color: #6b0000;
@@ -16,6 +22,7 @@
 .box_one {
   margin: 20px;
   justify-content: start;
+  grid-template-columns: 3fr 1fr;
   text-align: left !important;
 }
 
@@ -38,12 +45,12 @@
 .box_two a:active,
 .box_two a:hover {
   color: white !important;
-  text-decoration: none;
 }
 
-.box_two a:visited,
-.box_two a:active,
-.box_two a:hover {
-  color: white !important;
-  text-decoration: none;
+@media only screen and (max-width: 880px) {
+  .box_two a:visited,
+  .box_two a:active,
+  .box_two a:hover {
+    color: white !important;
+  }
 }
