@@ -44,13 +44,13 @@
 .box_two a:visited,
 .box_two a:active,
 .box_two a:hover {
-  color: white !important;
+  color: inherit !important;
 }
 
 @media only screen and (max-width: 880px) {
   .box_two a:visited,
   .box_two a:active,
   .box_two a:hover {
-    color: white !important;
+    color: inherit !important;
   }
 }

@@ -17,3 +17,10 @@
 .foodRotate {
   transform: rotate(90deg);
 }
+
+@media only screen and (max-width: 660px) {
+  #food img {
+    max-height: 300px;
+    max-width: 300px;
+  }
+}

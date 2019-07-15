@@ -54,7 +54,7 @@ class Companies extends React.Component {
             <ReactHover.Trigger type="trigger">
               <h5>Researcher for blockchain-based technologies</h5>
               <img
-                id="noris_network"
+                id="eden_block"
                 src={require("./image/general/eden_block.png")}
               />
             </ReactHover.Trigger>
