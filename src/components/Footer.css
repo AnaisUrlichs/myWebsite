@@ -9,7 +9,7 @@
   grid-template-columns: 3fr 1fr;
   background-color: #6b0000;
   opacity: 0.9;
-  color: #ffffff !important;
+  color: #ffffff;
   justify-content: start;
 }
 
@@ -41,16 +41,24 @@
   text-decoration: underline;
 }
 
+
+.box_two a,
 .box_two a:visited,
-.box_two a:active,
+.box_two a:active{
+  color: white !important;
+  text-decoration: none !important;
+}
+
 .box_two a:hover {
-  color: inherit !important;
+  color: white !important;
+  text-decoration: underline;
 }
 
 @media only screen and (max-width: 880px) {
   .box_two a:visited,
   .box_two a:active,
   .box_two a:hover {
-    color: inherit !important;
+    color: white !important;
+    text-decoration: none !important;
   }
 }

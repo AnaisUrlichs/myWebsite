@@ -1,12 +1,10 @@
 import React, { Component } from "react";
-import Swiper from "react-id-swiper";
+import Swiper from 'react-id-swiper';
 import ReactPlayer from "react-player";
-import { Pagination, Navigation } from "swiper/dist/js/swiper.esm";
 import "./SpeakingVideos.css";
 
 const SpeakingVideos = () => {
   const params = {
-    modules: [Pagination, Navigation],
     pagination: {
       el: ".swiper-pagination",
       type: "bullets",

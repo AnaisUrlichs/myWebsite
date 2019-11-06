@@ -1,23 +1,20 @@
 import React, { Component } from "react";
-import Swiper from "react-id-swiper";
-import { Pagination, Navigation } from "swiper/dist/js/swiper.esm";
+import Swiper from 'react-id-swiper';
+
 import "./Conf.css";
 
 const Conf = () => {
   const params = {
-    modules: [Pagination, Navigation],
-    slidesPerView: 1,
-    spaceBetween: 30,
     pagination: {
       el: ".swiper-pagination",
-      clickable: true,
-      color: "black"
+      type: "bullets",
+      clickable: true
     },
     navigation: {
       nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-      color: "black"
-    }
+      prevEl: ".swiper-button-prev"
+    },
+    spaceBetween: 30
   };
 
   return (

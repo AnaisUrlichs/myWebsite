@@ -13,7 +13,7 @@ body {
 }
 
 .navSpace {
-  padding: 70px;
+  background-color: #ebebeb;
 }
 
 a:visited,
@@ -38,11 +38,12 @@ a:hover {
 }
 
 .topImage {
-  margin: 50px;
+  background-color: #ebebeb;
+  padding: 50px;
+  margin-bottom: 50px;
 }
 
 .statistics {
-  background-color: #ebebeb;
   padding: 50px;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -104,10 +105,9 @@ a:hover {
   background-color: #ebebeb;
   padding: 50px;
   margin-top: 50px;
-  margin-bottom: 50px;
 }
 
-.mentoring p {
+.gridContainer p {
   font-size: 18px;
   padding: 20px;
   margin: auto auto;
@@ -144,8 +144,24 @@ a:hover {
   opacity: 0.8;
 }
 
-#veganOutreach {
-  text-decoration: underline;
+.gridContainer {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.grid-item-left {
+  display: inline-grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.grid-item-right {
+  display: inline-grid;
+  align-content: center;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-rows: 1fr 1fr;
 }
 
 #hobbies div {
