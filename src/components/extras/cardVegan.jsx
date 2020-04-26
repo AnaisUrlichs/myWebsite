@@ -2,14 +2,15 @@ import React from 'react';
 import { Card, Button, CardHeader, CardFooter, CardBody,
     CardTitle, CardText } from 'reactstrap';
 
+import "./cardStyling.css";
 
 const CardVegan = (props) => {
   return (
     <div>
       <Card>
         <CardHeader>Vegan Outreach</CardHeader>
-        <CardBody>
-          <Button href="https://veganoutreach.org/" style={{backgroundColor: "#6b0000", borderColor: "white", color: "white"}}>Website</Button>
+        <CardBody className="card-body-about">
+          <Button className="buttonStyle-about" href="https://veganoutreach.org/">Website</Button>
         </CardBody>
       </Card>
     </div>

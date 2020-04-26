@@ -410,7 +410,7 @@ a:active {
   align-content: center;
 }
 
-.buttonTouch {
+.buttonTouch, .buttonTouchOne {
   background-color: white;
   border-style: solid;
   border-width: 3px;
@@ -423,7 +423,11 @@ a:active {
   border-radius: 20px;
 }
 
-.buttonTouch h5 {
+.buttonTouchOne {
+  background-color: #ebebeb;
+}
+
+.buttonTouch h5, .buttonTouchOne h5 {
   color: #6b0000;
   text-transform: uppercase;
   font-weight: normal;
@@ -439,7 +443,11 @@ a:active {
   color: white;
 }
 
-.buttonTouch:hover {
+.buttonTouchOne:hover h5 {
+  color: #ebebeb;
+}
+
+.buttonTouch:hover, .buttonTouchOne:hover {
   background-color: #6b0000;
 }
 

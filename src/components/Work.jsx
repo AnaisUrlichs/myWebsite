@@ -5,6 +5,7 @@ import Companies from "./extras/companies.jsx";
 import Slide from "react-reveal/Slide";
 import Fade from "react-reveal/Fade";
 import ScrollToTopOnMount from "./ScrollTop.jsx";
+import Experience from "./extras/experience.jsx";
 
 export default class Work extends Component {
   render() {
@@ -176,11 +177,13 @@ export default class Work extends Component {
               You can find a collection of additional writings on my Medium
               Blog.
             </p>
-            <a href="https://medium.com/@urlichsanais">
-              <div className="buttonBlog">
-                <h5>Blog</h5>
-              </div>
-            </a>
+            <div>
+              <a href="https://anaisurlichs.ghost.io/">
+                <div className="buttonTouchOne">
+                  <h5>Blog</h5>
+                </div>
+              </a>
+            </div>
           </Fade>
         </div>
 
@@ -198,7 +201,7 @@ export default class Work extends Component {
             <h5>Experience</h5>
             <h3>Some of the companies that I have worked with</h3>
 
-            <Companies />
+            <Experience />
           </Fade>
         </div>
 
@@ -214,12 +217,13 @@ export default class Work extends Component {
               technical-writing, or research, please get in touch! Looking
               forward hearing from you!
             </p>
-
-            <a href="/contact">
-              <div className="buttonTouch">
-                <h5>Get in touch</h5>
-              </div>
-            </a>
+            <div>
+              <a href="/contact">
+                <div className="buttonTouch">
+                  <h5>Get in touch</h5>
+                </div>
+              </a>
+            </div>
           </Fade>
         </div>
       </div>

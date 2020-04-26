@@ -2,14 +2,16 @@ import React from 'react';
 import { Card, Button, CardHeader, CardFooter, CardBody,
     CardTitle, CardText } from 'reactstrap';
 
+import "./cardStyling.css";
+
 
 const CardShe = (props) => {
   return (
     <div>
       <Card>
         <CardHeader>She256</CardHeader>
-        <CardBody>
-          <Button href="https://she256.org/" style={{color: "white", backgroundColor: "#6b0000", borderColor: "white"}}>Website</Button>
+        <CardBody className="card-body-about">
+          <Button className="buttonStyle-about" href="https://she256.org/">Website</Button>
         </CardBody>
       </Card>
     </div>

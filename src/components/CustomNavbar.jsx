@@ -39,7 +39,7 @@ class CustomNavbar extends Component {
               <MDBNavLink className="NavLink" to="/">
                 <img
                   id="signature"
-                  src={require("./extras/image/general/Signature.png")}
+                  src={require("./extras/image/general/logo.png")}
                   onClick={() => this.toggleSingleCollapse("collapse1")}
                 />
               </MDBNavLink>

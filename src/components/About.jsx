@@ -13,7 +13,6 @@ export default class About extends Component {
     return (
       <div>
         <ScrollToTopOnMount />
-        <div className="navSpace" />
 
         <div className="topImage">
           <img
@@ -32,7 +31,7 @@ export default class About extends Component {
             </div>
             <div>
               <h5>Books I've read this year</h5>
-              <CountUp end={16} duration={15} delay={2} className="counter" />
+              <CountUp end={8} duration={15} delay={2} className="counter" />
             </div>
             <div>
               <h5>Languages I speak</h5>
@@ -48,9 +47,9 @@ export default class About extends Component {
 
               <div className="gridContainer">
                 <div className="grid-item-left">
-                <p>I was lucky enought to meet some amazing people, who took extra interest in my education and personal success! 
+                <p>I was lucky enough to meet some amazing people, who took extra interest in my education and personal success! 
               A mentor can make all the difference. If you are interested in having a chat, please reach out. 
-              I love learning from others and share my knowledge. Below are two of the organisations that I have mentees in.</p>
+              I love learning from others and sharing my experience. On the right are two of the organisations that I have mentees in.</p>
                 </div>
                 <div className="grid-item-right">
                   <div>

@@ -59,7 +59,7 @@ export default class Contact extends Component {
   handleSubmit = event => {
     const isValid = this.validate();
     if (isValid) {
-      this.setState(initialState);
+      return true;
     } else {
       event.preventDefault();
     }

@@ -1,0 +1,13 @@
+.buttonStyle-about {
+    color: white;
+    background-color: #6b0000;
+    border: none;
+}
+
+.buttonStyle-about h5 {
+    color: white;
+}
+
+.card-body-about {
+    color: white;
+}

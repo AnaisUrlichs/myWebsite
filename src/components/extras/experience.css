@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  
+  .experience {
+    padding-top: 50px;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #000000;
+    background-color: white;
+    margin: 0 auto;
+  }
+
+.image {
+    max-width: 180px;
+}
+
+.experience a{
+    height: 50px;
+}
+
+.subtitle {
+    color: #6b0000;
+    font-weight: bold;
+}

@@ -46,11 +46,9 @@
 .box_two a:visited,
 .box_two a:active{
   color: white !important;
-  text-decoration: none !important;
 }
 
 .box_two a:hover {
-  color: white !important;
   text-decoration: underline;
 }
 
