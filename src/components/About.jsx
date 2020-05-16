@@ -22,22 +22,43 @@ export default class About extends Component {
           <h3>You've made it this far! Welcome to my corner of the web!</h3>
         </div>
 
-        <div className="statistics">
-          <h3>We all love data!</h3>
-          <div className="flex-container">
-            <div>
-              <h5>countries I have lived in</h5>
-              <CountUp end={5} duration={15} delay={2} className="counter" />
+        <div className="myStory">
+          <Fade bottom>
+              <h5>My Story</h5>
+              <h3>A Glimpse of Myself</h3>
+            <div className="gridContainer">
+              <div className="grid-item-left" id="first-grid-container">
+                <p>I grew up in Germany but had a chance to spend my studies both in the UK and in Spain. 
+                  My first undergraduate degree was in Information Management. With an original interest in Cyber Security some friends intorduced me to the blockchain space.
+                  To fuel my interest I started working as Technical Analyst for an Israeli VC fund while starting a Computer Science Degree.
+                  Several years later, after multiple engineering internships and various job experience, I have now found my place as Developer Advocate, 
+                  while still working on completing my CS degree.</p>
+              </div>
+              <div className="grid-item-photo">
+                <img
+                  id="presenting"
+                  src={require("./extras/image/general/presentation.png")}
+                />
+              </div>
             </div>
-            <div>
-              <h5>Books I've read this year</h5>
-              <CountUp end={8} duration={15} delay={2} className="counter" />
+
+            <div className="statistics">
+              <div className="flex-container">
+                <div>
+                  <h5>countries I have lived in</h5>
+                  <CountUp end={5} duration={10} delay={2} className="counter" />
+                </div>
+                <div>
+                  <h5>Books I've read this year</h5>
+                  <CountUp end={8} duration={10} delay={2} className="counter" />
+                </div>
+                <div>
+                  <h5>Languages I speak</h5>
+                  <CountUp end={3} duration={10} delay={2} className="counter" />
+                </div>
+              </div>
             </div>
-            <div>
-              <h5>Languages I speak</h5>
-              <CountUp end={3} duration={15} delay={2} className="counter" />
-            </div>
-          </div>
+          </Fade>
         </div>
 
         <div className="mentoring">

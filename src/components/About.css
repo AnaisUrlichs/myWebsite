@@ -34,10 +34,16 @@ a:hover {
   margin-bottom: 50px;
 }
 
-.statistics {
+.myStory {
   padding: 50px;
   margin-top: 50px;
-  margin-bottom: 50px;
+}
+
+#first-grid-container {
+}
+
+#presenting {
+  max-width: 715px;
 }
 
 .flex-container {
@@ -63,7 +69,8 @@ a:hover {
 .statistics h5,
 .confGallery h5,
 .mentoring h5,
-.foodGallery h5 {
+.foodGallery h5,
+.myStory h5 {
   font-size: 16px;
   margin: 10px auto;
   color: #6b0000;
@@ -77,7 +84,8 @@ a:hover {
 .confGallery h3,
 .mentoring h3,
 .foodGallery h3,
-.topImage h3 {
+.topImage h3,
+.myStory h3 {
   font-size: 32px;
   text-align: center;
   margin: 20px auto;
@@ -211,6 +219,7 @@ a:hover {
 #hobbies #reading:hover {
   background-image: url("./extras/image/general/reading.png");
   background-repeat: no-repeat;
+
 }
 
 #hobbies #reading:hover h5 {

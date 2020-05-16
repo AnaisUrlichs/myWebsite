@@ -37,7 +37,7 @@ const Experience = (props) => {
             <CardImg top width="100%" className="image" src={require("./image/general/eden_block.png")} alt="Card image cap" />
          </a>
         <CardBody>
-          <CardTitle>Head of Research</CardTitle>
+          <CardTitle>Technical Analyst</CardTitle>
           <CardSubtitle className="subtitle">Tasks</CardSubtitle>
           <CardText>Creating thematic and macro focused research reports for cryptoassets and blockchain technologies, collecting, synthesizing, and summarizing a wide range of content including articles, blog posts, and third-party research. </CardText>
         </CardBody>
@@ -47,7 +47,7 @@ const Experience = (props) => {
             <CardImg top width="100%" className="image" src={require("./image/general/near.png")} alt="Card image cap" />
         </a>
         <CardBody>
-          <CardTitle>Deverloper Advocate</CardTitle>
+          <CardTitle>Developer Advocate</CardTitle>
           <CardSubtitle className="subtitle">Tasks</CardSubtitle>
           <CardText>Bringing the tech closer to developers and users. This involves iterating on the documentation, writing user guides, and in general, making sure everyone has the tools and resources needed to get started.</CardText>
         </CardBody>
