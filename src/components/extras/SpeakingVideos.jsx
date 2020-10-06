@@ -26,6 +26,12 @@ const SpeakingVideos = () => {
         />
         <div>
           <ReactPlayer
+            url="https://youtu.be/tzFSoQL9HgE"
+            className="VideoOne"
+          />
+        </div>
+        <div>
+          <ReactPlayer
             url="https://youtu.be/nVdzPBflPeo?t=275"
             className="VideoOne"
           />

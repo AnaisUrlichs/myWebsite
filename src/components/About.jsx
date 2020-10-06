@@ -6,12 +6,11 @@ import Fade from "react-reveal/Fade";
 import ScrollToTopOnMount from "./ScrollTop.jsx";
 import CardShe from "./extras/cardShe.jsx";
 import CardVegan from "./extras/cardVegan.jsx";
-import SimpleSwiperWithParams from "./extras/simpleSwiperWithParams";
 
 export default class About extends Component {
   render() {
     return (
-      <div>
+      <div className="about">
         <ScrollToTopOnMount />
 
         <div className="topImage">
@@ -26,38 +25,37 @@ export default class About extends Component {
           <Fade bottom>
               <h5>My Story</h5>
               <h3>A Glimpse of Myself</h3>
-            <div className="gridContainer">
-              <div className="grid-item-left" id="first-grid-container">
-                <p>I grew up in Germany but had a chance to spend my studies both in the UK and in Spain. 
-                  My first undergraduate degree was in Information Management. With an original interest in Cyber Security some friends intorduced me to the blockchain space.
-                  To fuel my interest I started working as Technical Analyst for an Israeli VC fund while starting a Computer Science Degree.
-                  Several years later, after multiple engineering internships and various job experience, I have now found my place as Developer Advocate, 
-                  while still working on completing my CS degree.</p>
-              </div>
-              <div className="grid-item-photo">
-                <img
-                  id="presenting"
-                  src={require("./extras/image/general/presentation.png")}
-                />
-              </div>
-            </div>
-
-            <div className="statistics">
-              <div className="flex-container">
-                <div>
-                  <h5>countries I have lived in</h5>
-                  <CountUp end={5} duration={10} delay={2} className="counter" />
+              <div className="gridContainer">
+                <div className="grid-item-left" id="first-grid-container">
+                  <p>I grew up in Germany but had a chance to spend my studies both in the UK and in Spain. 
+                    My first undergraduate degree was in Information Management. With an original interest in Cyber Security some friends introduced me to the blockchain space.
+                    To fuel my interest I started working as Technical Analyst for an Israeli VC fund while starting a Computer Science Degree.
+                    Several years later, after multiple engineering internships and various job experience, I have now found my place as Developer Advocate, 
+                    while still working on completing my CS degree.</p>
                 </div>
-                <div>
-                  <h5>Books I've read this year</h5>
-                  <CountUp end={8} duration={10} delay={2} className="counter" />
-                </div>
-                <div>
-                  <h5>Languages I speak</h5>
-                  <CountUp end={3} duration={10} delay={2} className="counter" />
+                <div className="grid-item-photo">
+                  <img
+                    id="presenting"
+                    src={require("./extras/image/general/presentation.png")}
+                  />
                 </div>
               </div>
-            </div>
+              <div className="statistics">
+                <div className="flex-container">
+                  <div>
+                    <h5>countries I have lived in</h5>
+                    <CountUp end={5} duration={10} delay={2} className="counter" />
+                  </div>
+                  <div>
+                    <h5>Books I've read this year</h5>
+                    <CountUp end={16} duration={10} delay={2} className="counter" />
+                  </div>
+                  <div>
+                    <h5>Languages I speak</h5>
+                    <CountUp end={3} duration={10} delay={2} className="counter" />
+                  </div>
+                </div>
+              </div>
           </Fade>
         </div>
 
@@ -82,11 +80,13 @@ export default class About extends Component {
                 </div>
               </div>
 
-            <a href="/contact">
-              <div className="buttonTouchAbout">
-                <h5>Get in touch</h5>
+              <div>
+                <a href="/contact">
+                  <div className="buttonTouchAbout">
+                    <h5>Get in touch</h5>
+                  </div>
+                </a>
               </div>
-            </a>
           </Fade>
         </div>
 

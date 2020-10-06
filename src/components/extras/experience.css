@@ -1,24 +1,29 @@
-* {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    box-sizing: border-box;
-  }
-  
-  .experience {
-    padding-top: 50px;
-    font-family: "Source Sans Pro", sans-serif;
-    color: #000000;
-    background-color: white;
-    margin: 0 auto;
-  }
+.experience {
+  padding-top: 50px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #000000;
+  background-color: white;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #ebebeb;
 
-.image {
-    max-width: 180px;
 }
 
-.experience a{
+.experience img {
+    max-width: 180px;
+    margin: 16px;
+}
+
+.experience a {
     height: 50px;
+}
+
+.linkedIn .buttonTouch {
+    background-color: #ebebeb;
+}
+
+.linkedIn .buttonTouch:hover {
+  background-color: #6b0000;
 }
 
 .subtitle {

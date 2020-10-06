@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import "./Work.css";
-import SpeakingVideos from "./extras/SpeakingVideos.jsx";
-import Companies from "./extras/companies.jsx";
 import Slide from "react-reveal/Slide";
 import Fade from "react-reveal/Fade";
 import ScrollToTopOnMount from "./ScrollTop.jsx";
@@ -43,7 +41,7 @@ export default class Work extends Component {
             </div>
 
             <div>
-              <p>Product Management</p>
+              <p>Technical Writing</p>
               <span className="bar">
                 <Slide left duration="5000s">
                   <span className="three" />
@@ -52,7 +50,7 @@ export default class Work extends Component {
             </div>
 
             <div>
-              <p>HTML5 & CSS3</p>
+              <p>Community Management & Public Speaking</p>
               <span className="bar">
                 <Slide left duration="5000s">
                   <span className="four" />
@@ -61,7 +59,7 @@ export default class Work extends Component {
             </div>
 
             <div>
-              <p>Symfony PhP framework</p>
+              <p>React, HTML5 & CSS3</p>
               <span className="bar">
                 <Slide left duration="5000s">
                   <span className="five" />
@@ -70,7 +68,7 @@ export default class Work extends Component {
             </div>
 
             <div>
-              <p>Java OOP</p>
+              <p>Typescript</p>
               <span className="bar">
                 <Slide left duration="5000s">
                   <span className="six" />
@@ -79,7 +77,7 @@ export default class Work extends Component {
             </div>
 
             <div>
-              <p>Bootstrap</p>
+              <p>Symfony PhP framework</p>
               <span className="bar">
                 <Slide left duration="5000s">
                   <span className="seven" />
@@ -88,7 +86,7 @@ export default class Work extends Component {
             </div>
 
             <div>
-              <p>JavaScript React</p>
+              <p>Java</p>
               <span className="bar">
                 <Slide left duration="5000s">
                   <span className="eight" />
@@ -117,7 +115,7 @@ export default class Work extends Component {
 
             <div className="flex-container" id="research">
               <a
-                href="https://docs.google.com/document/d/10YHtXsPkVzjdSPXh72nWDxi84-aTv05tNTeuvKjZhN8/edit?usp=sharing"
+                href="https://blog.anaisurl.com/blockchain-intro-series-1/"
                 target="_blank"
               >
                 <div>
@@ -125,7 +123,7 @@ export default class Work extends Component {
                 </div>
               </a>
               <a
-                href="https://docs.google.com/document/d/1wHBXuzomF2WAbSvHWeerxceKLUYojrHUrwm0zo8K4-M/edit?usp=sharing"
+                href="https://blog.anaisurl.com/blockchain-intro-series-3/"
                 target="_blank"
               >
                 <div>
@@ -133,7 +131,7 @@ export default class Work extends Component {
                 </div>
               </a>
               <a
-                href="https://docs.google.com/document/d/1-OLzmz3_hHrdSkv9HSnPVl6rIPtpyQW5P-0BzODfKjM/edit?usp=sharing"
+                href="https://blog.anaisurl.com/blockchain-intro-series-2/"
                 target="_blank"
               >
                 <div>
@@ -141,7 +139,7 @@ export default class Work extends Component {
                 </div>
               </a>
               <a
-                href="https://docs.google.com/document/d/1xQsJU3J7woJ2HgNz03IMN2B7gTHBiPfvJg4CPugsvbU/edit?usp=sharing"
+                href="https://blog.anaisurl.com/blockchain-intro-series-4/"
                 target="_blank"
               >
                 <div>
@@ -149,7 +147,7 @@ export default class Work extends Component {
                 </div>
               </a>
               <a
-                href="https://docs.google.com/document/d/1NopYOyiXUGo-CC5BbdnBBASDviUlPPiSV8EzGiUS2LQ/edit?usp=sharing"
+                href="https://blog.anaisurl.com/blockchain-intro-series-5/"
                 target="_blank"
               >
                 <div>
@@ -158,7 +156,7 @@ export default class Work extends Component {
               </a>
 
               <a
-                href="https://drive.google.com/drive/folders/1oIr7wIwyJuR71ynS_M5S4Y4jgrK92lUt?usp=sharing"
+                href="https://blog.anaisurl.com/"
                 target="_blank"
               >
                 <div ckassName="additional_writing">
@@ -166,33 +164,6 @@ export default class Work extends Component {
                 </div>
               </a>
             </div>
-          </Fade>
-        </div>
-
-        <div className="blog">
-          <Fade bottom>
-            <h5>Blog</h5>
-            <h3>Additional writings</h3>
-            <p>
-              You can find a collection of additional writings on my Medium
-              Blog.
-            </p>
-            <div>
-              <a href="https://anaisurlichs.ghost.io/">
-                <div className="buttonTouchOne">
-                  <h5>Blog</h5>
-                </div>
-              </a>
-            </div>
-          </Fade>
-        </div>
-
-        <div className="speaking">
-          <Fade bottom>
-            <h5>Speaking</h5>
-            <h3>Talking about my Research!</h3>
-
-            <SpeakingVideos />
           </Fade>
         </div>
 
@@ -205,17 +176,12 @@ export default class Work extends Component {
           </Fade>
         </div>
 
-        <div className="devider" />
-
         <div className="hire">
           <Fade bottom>
             <h5>Collaborating</h5>
             <h3>Let's start creating!</h3>
             <p>
-              If you are looking for a curious, passionate, and hard-working
-              individual to contribute to your front-end development,
-              technical-writing, or research, please get in touch! Looking
-              forward hearing from you!
+              I love to work on community-driven initiatives, open-source projects, and research. If you would like to collaborate, please reach out.
             </p>
             <div>
               <a href="/contact">

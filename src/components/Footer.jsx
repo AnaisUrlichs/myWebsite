@@ -36,7 +36,7 @@ export default class CustomNavbar extends Component {
             </div>
             <div>
               <p>
-                <a href="https://anaisurlichs.ghost.io/" target="_blank">
+                <a href="https://blog.anaisurl.com/" target="_blank">
                   Blog
                 </a>
               </p>
