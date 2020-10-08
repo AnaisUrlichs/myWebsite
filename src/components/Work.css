@@ -21,6 +21,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 100px;
 }
 
 #bodyTitle {
@@ -152,84 +153,17 @@ body {
   animation: eight 5s;
 }
 
-/*
-@keyframes one {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 99%;
-  }
+.list {
+  margin: 50px;
+  margin-bottom: 0px;
 }
-
-@keyframes two {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 90%;
-  }
-}
-
-@keyframes three {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 80%;
-  }
-}
-
-@keyframes four {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 90%;
-  }
-}
-
-@keyframes five {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 85%;
-  }
-}
-
-@keyframes six {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 70%;
-  }
-}
-
-@keyframes seven {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 55%;
-  }
-}
-
-@keyframes eight {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 40%;
-  }
-}*/
 
 .research h5,
 .speaking h5,
 .companies h5,
 .blog h5,
-.hire h5 {
+.hire h5,
+.list h5 {
   font-size: 16px;
   color: #6b0000;
   text-align: center;
@@ -241,7 +175,8 @@ body {
 .speaking h3,
 .companies h3,
 .blog h3,
-.hire h3 {
+.hire h3,
+.list h3 {
   font-size: 32px;
   text-align: center;
   margin: 20px auto;
@@ -252,7 +187,8 @@ body {
 }
 
 .research{
-  padding-bottom: 100px;
+  margin-left: 50px;
+  margin-right:50px;
 }
 
 .hire {
@@ -266,7 +202,6 @@ body {
 
 .research p,
 .hire p {
-  font-size: 18px;
   padding: 20px;
   margin: 0 auto;
   max-width: 1088px;
@@ -457,7 +392,8 @@ a:active {
   .skillBar,
   .research,
   .speaking,
-  .hire {
+  .hire,
+  .list {
     margin: 20px;
     padding: 20px;
   }
@@ -493,5 +429,9 @@ a:active {
     width: 292px;
     height: 292px;
     top: 168px;
+  }
+
+  .research p, .hire p {
+    text-align: left;
   }
 }

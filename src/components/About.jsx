@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./About.css";
 import CountUp from "react-countup";
-import Conf from "./extras/Conf.jsx";
 import Fade from "react-reveal/Fade";
 import ScrollToTopOnMount from "./ScrollTop.jsx";
 import CardShe from "./extras/cardShe.jsx";
@@ -17,6 +16,7 @@ export default class About extends Component {
           <img
             className="snowImage"
             src={require("./extras/image/general/snowImage.png")}
+            alt="selfie in snow"
           />
           <h3>You've made it this far! Welcome to my corner of the web!</h3>
         </div>
@@ -37,6 +37,7 @@ export default class About extends Component {
                   <img
                     id="presenting"
                     src={require("./extras/image/general/presentation.png")}
+                    alt="giving a presentation"
                   />
                 </div>
               </div>

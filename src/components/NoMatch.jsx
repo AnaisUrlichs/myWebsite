@@ -15,7 +15,7 @@ export default class Work extends Component {
 
             <div className="errorButtons">
               <div>
-                <a href="https://anais.urlichs.de">
+                <a href="/">
                   <div className="buttonError">
                     <h5>Work</h5>
                   </div>
@@ -23,7 +23,7 @@ export default class Work extends Component {
               </div>
 
               <div>
-                <a href="https://anais.urlichs.de/about">
+                <a href="/about">
                   <div className="buttonError">
                     <h5>About</h5>
                   </div>
@@ -31,7 +31,7 @@ export default class Work extends Component {
               </div>
 
               <div>
-                <a href="https://anais.urlichs.de/contact">
+                <a href="/contact">
                   <div className="buttonError">
                     <h5>Contact</h5>
                   </div>

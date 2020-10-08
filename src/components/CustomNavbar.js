@@ -7,7 +7,7 @@ const CustomNavbar = () => {
   const [open, setOpen] = useState(false);
 
   const toggleMenu = () => {
-    if (open == true){
+    if (open === true){
       setOpen(false);
     }else{
       setOpen(true);
@@ -33,6 +33,7 @@ const CustomNavbar = () => {
           <img
             id="signature"
             src={require("./extras/image/general/logo.png")}
+            alt="signature"
             onClick={toggleMenu}
           />
         </div>

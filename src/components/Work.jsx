@@ -4,6 +4,7 @@ import Slide from "react-reveal/Slide";
 import Fade from "react-reveal/Fade";
 import ScrollToTopOnMount from "./ScrollTop.jsx";
 import Experience from "./extras/experience.jsx";
+import Listofwhatido from "./extras/Listofwhatido.jsx";
 
 export default class Work extends Component {
   render() {
@@ -21,9 +22,18 @@ export default class Work extends Component {
             <img
               id="meSpeaking"
               src={require("./extras/image/general/meSpeaking.png")}
+              alt="speaking with a mic"
             />
             <div id="outBox" />
           </div>
+        </div>
+
+        <div className="list">
+          <Fade bottom>
+            <h5>Developer Advocate</h5>
+            <h3>Here is what I do</h3>
+            <Listofwhatido/>
+          </Fade>
         </div>
 
         <div className="skillBar">
@@ -117,6 +127,7 @@ export default class Work extends Component {
               <a
                 href="https://blog.anaisurl.com/blockchain-intro-series-1/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <div>
                   <h5>replicated ledgers</h5>
@@ -125,6 +136,7 @@ export default class Work extends Component {
               <a
                 href="https://blog.anaisurl.com/blockchain-intro-series-3/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <div>
                   <h5>scalability solutions</h5>
@@ -133,6 +145,7 @@ export default class Work extends Component {
               <a
                 href="https://blog.anaisurl.com/blockchain-intro-series-2/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <div>
                   <h5>consensus mechanisms</h5>
@@ -141,6 +154,7 @@ export default class Work extends Component {
               <a
                 href="https://blog.anaisurl.com/blockchain-intro-series-4/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <div>
                   <h5>cryptography</h5>
@@ -149,6 +163,7 @@ export default class Work extends Component {
               <a
                 href="https://blog.anaisurl.com/blockchain-intro-series-5/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <div>
                   <h5>governance</h5>
@@ -158,6 +173,7 @@ export default class Work extends Component {
               <a
                 href="https://blog.anaisurl.com/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <div ckassName="additional_writing">
                   <h5>And More!</h5>

@@ -1,0 +1,54 @@
+.listgrid {
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.listgrid div {
+    width: 488px;
+    margin: 24px;
+}
+
+.listgrid p {
+    text-align: left;
+}
+
+.listgrid h4 {
+    font-size: larger;
+   font-weight: bold;
+    color:#6b0000;
+}
+
+.listgrid p, .listgrid h4 {
+    margin-top: 32px;
+}
+
+.listgrid img {
+    width: 400px;
+}
+
+.listgrid div a {
+    color:#6b0000 !important;
+}
+
+.listgrid a:hover {
+    text-decoration: underline;
+    color: #6b0000;
+}
+
+@media only screen and (max-width: 880px) {
+    .listgrid img {
+        width: 286px;
+    }
+
+    .listgrid div {
+        margin-left: 0px;
+    margin-right: 0px;
+    }
+}

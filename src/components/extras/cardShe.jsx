@@ -1,6 +1,5 @@
 import React from 'react';
-import { Card, Button, CardHeader, CardFooter, CardBody,
-    CardTitle, CardText } from 'reactstrap';
+import { Card, Button, CardHeader, CardBody } from 'reactstrap';
 
 import "./cardStyling.css";
 
