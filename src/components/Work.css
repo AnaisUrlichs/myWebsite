@@ -5,11 +5,16 @@
   box-sizing: border-box;
 }
 
+p {
+  font-size: 20px;
+}
+
 body {
   font-family: "Source Sans Pro", sans-serif;
   color: #000000;
   background-color: white;
   margin: 0 auto;
+  width: 100%;
 }
 
 .navSpace {
@@ -21,7 +26,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 100px;
 }
 
 #bodyTitle {
@@ -66,7 +70,7 @@ body {
   position: relative;
 }
 
-.skillBar h5 {
+.youtube h5 {
   font-size: 16px;
   color: #6b0000;
   text-align: left;
@@ -74,22 +78,14 @@ body {
   font-weight: bold;
 }
 
-.skillBar h3 {
+.youtube h3 {
   font-size: 32px;
   text-align: left;
   margin: 20px auto;
 }
 
-.skillBar p {
+.youtube p {
   margin-top: 20px;
-}
-
-.progress-bar {
-  color: #6b0000 !important;
-}
-
-.skillBar div {
-  margin: 20px 0;
 }
 
 .bar {
@@ -102,63 +98,12 @@ body {
   box-shadow: 0 0 5px #6b0000;
 }
 
-.skillBar .bar span {
-  height: 5px;
-  float: left;
-  background: #6b0000;
-}
-
-.one {
-  visibility: visible;
-  width: 99%;
-  animation: one 5s;
-  visibility: visible;
-}
-
-.two {
-  visibility: visible;
-  width: 90%;
-  animation: two 5s;
-}
-
-.three {
-  visibility: visible;
-  width: 80%;
-  animation: three 5s;
-}
-
-.four {
-  visibility: visible;
-  width: 90%;
-  animation: four 5s;
-}
-
-.five {
-  width: 85%;
-  animation: five 5s;
-}
-
-.six {
-  width: 70%;
-  animation: six 5s;
-}
-
-.seven {
-  width: 55%;
-  animation: seven 5s;
-}
-
-.eight {
-  width: 40%;
-  animation: eight 5s;
-}
-
 .list {
   margin: 50px;
-  margin-bottom: 0px;
+  padding-top: 50px;
 }
 
-.research h5,
+.writing h5,
 .speaking h5,
 .companies h5,
 .blog h5,
@@ -171,7 +116,7 @@ body {
   font-weight: bold;
 }
 
-.research h3,
+.writing h3,
 .speaking h3,
 .companies h3,
 .blog h3,
@@ -182,13 +127,47 @@ body {
   margin: 20px auto;
 }
 
-.skillBar{
-  padding: 100px;
+.youtube{
+  padding: 50px;
 }
 
-.research{
-  margin-left: 50px;
-  margin-right:50px;
+.gridContainer, #gridContainerVideo {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 10px;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+  margin: auto auto;
+}
+
+#gridContainerVideo{
+  height: 500px;
+  width: 100%;
+}
+
+.grid-item-left-video, .grid-rss {
+  display: inline-grid;
+  justify-items: left;
+  align-items: left;
+  text-align: left;
+}
+
+.grid-item-right-video {
+  margin: auto auto;
+  align-items: center;
+  text-align: center;
+}
+
+#youtubevideo {
+  width: 640px;
+  height: 360px;
+}
+
+.writing{
+  background-color: #ebebeb;
+  padding: 50px;
 }
 
 .hire {
@@ -196,13 +175,13 @@ body {
 }
 
 .companies {
-  background-color: #ebebeb;
   padding: 100px;
 }
 
-.research p,
+.writing p,
 .hire p {
   padding: 20px;
+  font-size: 20px;
   margin: 0 auto;
   max-width: 1088px;
   text-align: center;
@@ -221,17 +200,17 @@ body {
   height: 250px;
 }
 
-#research div,
+#writing div,
 .flexContainer div {
   width: 250px;
   height: 250px;
 }
 
-#research div:hover {
+#writing div:hover {
   background-color: #ebebeb;
 }
 
-#research h5 {
+#writing h5 {
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
@@ -243,54 +222,10 @@ body {
   text-transform: uppercase;
 }
 
-#research a:visited,
+#writing a:visited,
 a:active {
   color: inherit;
   text-decoration: none;
-}
-
-.blog {
-  background-color: #ebebeb;
-  padding: 50px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-.blog p {
-  font-size: 18px;
-  padding: 20px;
-  margin: auto auto;
-  max-width: 1088px;
-  text-align: center;
-}
-
-.buttonBlog {
-  background-color: #6b0000;
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  height: 60px;
-  width: 150px;
-  border-radius: 20px;
-  transition: opacity 1s ease-in;
-}
-
-.buttonBlog h5 {
-  text-transform: uppercase;
-  color: #ebebeb;
-  font-weight: normal;
-  font-size: 16px;
-  text-align: center;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.buttonBlog:hover h5 {
-  font-weight: bold;
-  color: black;
-  opacity: 0.8;
 }
 
 .flexContainer {
@@ -302,19 +237,6 @@ a:active {
 
 .company_boxes {
   margin: 20px;
-}
-
-#noris_network,
-#meelogic {
-  max-height: 200px;
-  max-width: 200px;
-  margin: 60px auto;
-}
-
-#eden_block {
-  max-height: 200px;
-  max-width: 200px;
-  margin: 20px auto;
 }
 
 a:hover,
@@ -333,7 +255,6 @@ a:active {
 }
 
 .flexContainer #text_box p {
-  font-size: 18px;
   text-align: center;
   opacity: 1;
   position: relative;
@@ -345,6 +266,7 @@ a:active {
 .hire {
   margin: 0 auto;
   align-content: center;
+  background-color: #ebebeb;
 }
 
 .buttonTouch, .buttonTouchOne {
@@ -384,17 +306,21 @@ a:active {
   color: #ebebeb;
 }
 
-.buttonTouch:hover, .buttonTouchOne:hover {
+#get-in-touch-button {
+  background-color: #ebebeb;
+}
+
+.buttonTouch:hover, .buttonTouchOne:hover, #get-in-touch-button:hover {
   background-color: #6b0000;
 }
 
 @media only screen and (max-width: 880px) {
-  .skillBar,
-  .research,
+  .youtube,
+  .writing,
   .speaking,
   .hire,
-  .list {
-    margin: 20px;
+  .list,
+  #profile {
     padding: 20px;
   }
 
@@ -403,13 +329,13 @@ a:active {
     margin: 0px;
   }
 
-  #research div {
+  #writing div {
     width: 200px;
     height: 200px;
     justify-content: center;
   }
 
-  #research h5 {
+  #writing h5 {
     margin-top: 40%;
     padding: 5px;
     font-size: 16px;
@@ -431,7 +357,17 @@ a:active {
     top: 168px;
   }
 
-  .research p, .hire p {
+  .gridContainerVideo, .grid-item-left-video {
+    margin: 0px;
+  }
+
+  #youtubevideo {
+    width: auto;
+    height: auto;
+    margin: 1px;
+  }
+
+  .writing p, .hire p {
     text-align: left;
   }
 }

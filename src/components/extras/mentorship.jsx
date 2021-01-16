@@ -3,9 +3,17 @@ import { Card, Button, CardHeader, CardBody } from 'reactstrap';
 
 import "./cardStyling.css";
 
-const CardVegan = (props) => {
+
+const Mentorship = (props) => {
   return (
     <div>
+      <Card>
+        <CardHeader>GirlCode</CardHeader>
+        <CardBody className="card-body-about">
+          <Button className="buttonStyle-about" href="https://www.girl-code.co.uk/">Website</Button>
+        </CardBody>
+      </Card>
+      <div className="cardDivider"/>
       <Card>
         <CardHeader>Vegan Outreach</CardHeader>
         <CardBody className="card-body-about">
@@ -16,4 +24,4 @@ const CardVegan = (props) => {
   );
 };
 
-export default CardVegan;
+export default Mentorship;

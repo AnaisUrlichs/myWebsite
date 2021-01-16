@@ -1,0 +1,29 @@
+.rssfeed #rsstitle {
+    font-size: larger;
+    font-weight: bold;
+    color:#6b0000;
+}
+
+.rssfeed #rsscontent p {
+    font-size: 20px;
+    padding: 5px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#rsscontent {
+    margin-bottom: 20px;
+}
+
+
+#rsscontent a:hover {
+    text-decoration: underline;
+  }
+
+#rsscontent img {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-top: 7px;
+    margin-left: -20px;
+}

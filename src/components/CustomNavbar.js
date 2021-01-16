@@ -57,6 +57,7 @@ const CustomNavbar = () => {
               <button><a href="/">Work</a></button>
               <button><a href="/about">About</a></button>
               <button><a href="https://blog.anaisurl.com/">Blog</a></button>
+              <button><a href="https://devops.anaisurl.com/">DevOps Diary</a></button>
               <button><a href="/contact">Contact</a></button>
             </div>
           )

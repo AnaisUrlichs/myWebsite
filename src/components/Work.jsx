@@ -1,10 +1,13 @@
 import React, { Component } from "react";
 import "./Work.css";
-import Slide from "react-reveal/Slide";
 import Fade from "react-reveal/Fade";
 import ScrollToTopOnMount from "./ScrollTop.jsx";
 import Experience from "./extras/experience.jsx";
 import Listofwhatido from "./extras/Listofwhatido.jsx";
+import Iframe from 'react-iframe';
+import CardDevOps from "./extras/cardDevOps.jsx";
+import RSSFeedWork from "./extras/RSSFeedWork.jsx";
+import RSSFeedNews from "./extras/RSSFeedNews.jsx";
 
 export default class Work extends Component {
   render() {
@@ -36,149 +39,38 @@ export default class Work extends Component {
           </Fade>
         </div>
 
-        <div className="skillBar">
+        <div className="youtube">
           <Fade bottom>
-            <h5>Skills</h5>
-            <h3>My top skills!</h3>
-
-            <div>
-              <p>Research & Analysis</p>
-              <span className="bar">
-                <Slide left duration="5000s">
-                  <span className="one" />
-                </Slide>
-              </span>
-            </div>
-
-            <div>
-              <p>Technical Writing</p>
-              <span className="bar">
-                <Slide left duration="5000s">
-                  <span className="three" />
-                </Slide>
-              </span>
-            </div>
-
-            <div>
-              <p>Community Management & Public Speaking</p>
-              <span className="bar">
-                <Slide left duration="5000s">
-                  <span className="four" />
-                </Slide>
-              </span>
-            </div>
-
-            <div>
-              <p>React, HTML5 & CSS3</p>
-              <span className="bar">
-                <Slide left duration="5000s">
-                  <span className="five" />
-                </Slide>
-              </span>
-            </div>
-
-            <div>
-              <p>Typescript</p>
-              <span className="bar">
-                <Slide left duration="5000s">
-                  <span className="six" />
-                </Slide>
-              </span>
-            </div>
-
-            <div>
-              <p>Symfony PhP framework</p>
-              <span className="bar">
-                <Slide left duration="5000s">
-                  <span className="seven" />
-                </Slide>
-              </span>
-            </div>
-
-            <div>
-              <p>Java</p>
-              <span className="bar">
-                <Slide left duration="5000s">
-                  <span className="eight" />
-                </Slide>
-              </span>
+            <h5>DevOps Diary</h5>
+            <h3>Making my entire learning journey public</h3>
+            <div className="gridContainerVideo" id="gridContainerVideo">
+              <div className="grid-item-left-video">
+                <Iframe url="https://www.youtube.com/embed/3241WMup0LE"
+                  id="youtubevideo"
+                  display="initial"
+                  position="relative"
+                  frameBorder="0"
+                  />
+              </div>
+              <div className="grid-item-right-video">
+                <CardDevOps />
+              </div>
             </div>
           </Fade>
         </div>
 
-        <div className="research">
+        <div className="writing">
           <Fade bottom>
-            <h5>Research</h5>
-            <h3>+150 technical papers and summaries - Samples below!</h3>
-
-            <p>
-              I got interested in distributed ledger technologies at the end of
-              2017, driven by my earlier interest in network security. Working
-              for a VC in the space, I was in charge of creating thematic and
-              macro focused research reports for cryptoassets and blockchain
-              technologies, collecting, synthesizing, and summarizing a wide
-              range of content including articles, blog posts, and third-party
-              research. As of today, I've written over 150 research papers and
-              summaries on a variety of related topics. Below are some summaries
-              of my research efforts.
-            </p>
-
-            <div className="flex-container" id="research">
-              <a
-                href="https://blog.anaisurl.com/blockchain-intro-series-1/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div>
-                  <h5>replicated ledgers</h5>
-                </div>
-              </a>
-              <a
-                href="https://blog.anaisurl.com/blockchain-intro-series-3/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div>
-                  <h5>scalability solutions</h5>
-                </div>
-              </a>
-              <a
-                href="https://blog.anaisurl.com/blockchain-intro-series-2/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div>
-                  <h5>consensus mechanisms</h5>
-                </div>
-              </a>
-              <a
-                href="https://blog.anaisurl.com/blockchain-intro-series-4/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div>
-                  <h5>cryptography</h5>
-                </div>
-              </a>
-              <a
-                href="https://blog.anaisurl.com/blockchain-intro-series-5/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div>
-                  <h5>governance</h5>
-                </div>
-              </a>
-
-              <a
-                href="https://blog.anaisurl.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div ckassName="additional_writing">
-                  <h5>And More!</h5>
-                </div>
-              </a>
+            <h5>Writing</h5>
+            <h3>My passion is in technical writing</h3>
+            
+            <div className="gridContainer">
+              <div className="grid-rss">
+                <RSSFeedWork />
+              </div>
+              <div className="grid-rss">
+                <RSSFeedNews />
+              </div>
             </div>
           </Fade>
         </div>
@@ -201,7 +93,7 @@ export default class Work extends Component {
             </p>
             <div>
               <a href="/contact">
-                <div className="buttonTouch">
+                <div className="buttonTouch" id="get-in-touch-button">
                   <h5>Get in touch</h5>
                 </div>
               </a>

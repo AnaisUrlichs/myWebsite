@@ -2,7 +2,6 @@ import React from "react"
 import "./Listofwhatido.css"
 
 const Listofwhatido = () => {
-
     return (
         <div className="listgrid">
                 <div>

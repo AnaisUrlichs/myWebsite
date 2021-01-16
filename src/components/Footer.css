@@ -6,7 +6,7 @@
 .footer {
   max-height: 200px;
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 1fr 1fr;
   background-color: #6b0000;
   opacity: 0.9;
   color: #ffffff;
@@ -33,14 +33,13 @@
 .box_two {
   margin: 20px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   justify-content: start;
 }
 
 .box_two a:hover {
   text-decoration: underline;
 }
-
 
 .box_two a,
 .box_two a:visited,

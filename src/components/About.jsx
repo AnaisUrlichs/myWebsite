@@ -3,8 +3,7 @@ import "./About.css";
 import CountUp from "react-countup";
 import Fade from "react-reveal/Fade";
 import ScrollToTopOnMount from "./ScrollTop.jsx";
-import CardShe from "./extras/cardShe.jsx";
-import CardVegan from "./extras/cardVegan.jsx";
+import Mentorship from "./extras/mentorship.jsx";
 
 export default class About extends Component {
   render() {
@@ -72,12 +71,7 @@ export default class About extends Component {
               I love learning from others and sharing my experience. On the right are two of the organisations that I have mentees in.</p>
                 </div>
                 <div className="grid-item-right">
-                  <div>
-                    <CardShe />
-                  </div>
-                  <div>
-                    <CardVegan />
-                  </div>
+                    <Mentorship />
                 </div>
               </div>
 
