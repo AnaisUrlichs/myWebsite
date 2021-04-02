@@ -6,8 +6,6 @@ import Experience from "./extras/experience.jsx";
 import Listofwhatido from "./extras/Listofwhatido.jsx";
 import Iframe from 'react-iframe';
 import CardDevOps from "./extras/cardDevOps.jsx";
-import RSSFeedWork from "./extras/RSSFeedWork.jsx";
-import RSSFeedNews from "./extras/RSSFeedNews.jsx";
 
 export default class Work extends Component {
   render() {
@@ -59,27 +57,10 @@ export default class Work extends Component {
           </Fade>
         </div>
 
-        <div className="writing">
-          <Fade bottom>
-            <h5>Writing</h5>
-            <h3>My passion is in technical writing</h3>
-            
-            <div className="gridContainer">
-              <div className="grid-rss">
-                <RSSFeedWork />
-              </div>
-              <div className="grid-rss">
-                <RSSFeedNews />
-              </div>
-            </div>
-          </Fade>
-        </div>
-
         <div className="companies">
           <Fade bottom>
             <h5>Experience</h5>
             <h3>Some of the companies that I have worked with</h3>
-
             <Experience />
           </Fade>
         </div>
